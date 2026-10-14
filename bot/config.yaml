@@ -1,0 +1,14 @@
+# Default timezone for date understanding and reminders. Each chat can change it with /timezone.
+timezone: "Asia/Karachi"
+
+# Only these Telegram chat IDs can use the bot. Empty list means anyone who finds the bot.
+# Send /start to the bot to see your chat ID.
+allowed_chat_ids: []
+
+# Speech language code like "en" or "ur". Empty means auto-detect (best for mixed Urdu and English).
+language: ""
+
+max_voice_seconds: 300
+reminder_check_seconds: 20
+default_snooze_minutes: 30
+categories: [Work, Personal, Education, Shopping, Health, Finance, Other]

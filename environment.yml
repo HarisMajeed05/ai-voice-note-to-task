@@ -1,0 +1,9 @@
+name: ai-voice-note-to-task
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ffmpeg
+  - pip:
+      - -r bot/requirements.txt
